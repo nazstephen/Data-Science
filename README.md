@@ -2,7 +2,7 @@
 Compilation of all projects I've completed throughout [TripleTen's Data Science Bootcamp](https://tripleten.com/data-science/) 
 
 | Project Name              | Description                 | Libraries                      |
-| :-------------------- | :--------------------- |:---------------------------|
+| :---------------------- | :--------------------- |:---------------------------|
 | Basic Python Project |In this project, you will work with data from the entertainment industry. You will study a dataset with records on movies and shows. The research will focus on the "Golden Age" of television, which began in 1999 with the release of The Sopranos and is still ongoing. The aim of this project is to investigate how the number of votes a title receives impacts its ratings. | _pandas_ |
 | EDA Project | We will determine whether a game can be said to be successful or not in certain regions or markets and determine which games have the most potential in sales | _pandas and matplotlib_ |
 | SDA Project | You work as an analyst for the telecom operator Megaline. The company offers its clients two prepaid plans, Surf and Ultimate. The commercial department wants to know which of the plans brings in more revenue in order to adjust the advertising budget. You are going to carry out a preliminary analysis of the plans based on a relatively small client selection. | _pandas, numpy, scipy and matplotlib_ |
