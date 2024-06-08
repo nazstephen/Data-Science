@@ -44,12 +44,16 @@ Note: there isn't a direct connection between the tables **trips** and **weather
 ### Step 1: Write a code to parse the data on weather in Chicago in November 2017 from the website:
 <https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html>
 
+(see 'parsing_data.py')
+
 ### Step 2: Exploratory Data Analysis
 1) Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field **trips_amount** and print it along with the **company_name** field. Sort the results by the **trips_amount** field in descending order.
 
 2) Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable **trips_amount**. Group the results by the **company_name** field.
 
 3) In November 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable **trips_amount**. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names **company**. Sort the result in descending order by **trips_amount**.
+
+(see 'databases.sql')
 
 ### Step 3: Test the hypothesis that the duration of rides from the the Loop to O'Hare International Airport changes on rainy Saturdays.
 1) Retrieve the identifiers of the O'Hare and Loop neighborhoods from the **neighborhoods** table.
