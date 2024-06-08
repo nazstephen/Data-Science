@@ -12,32 +12,38 @@ Working with a database, you'll analyze data from competitors and test a hypothe
 - File path: 
   - /datasets/games.csv
 
-### Step 2: Prepare the Data
-- Replace the column names (make them lowercase).
-- Convert the data to the required types.
-- Describe the columns where the data types have been changed and why.
-- If necessary, decide how to deal with missing values:
-  - Explain why you filled in the missing values as you did or why you decided to leave them blank.
-  - Why do you think the values are missing? Give possible reasons.
-  - Pay attention to the abbreviation TBD (to be determined). Specify how you intend to handle such cases.
-- Calculate the total sales (the sum of sales in all regions) for each game and put these values in a separate column.
+### Step 2: Exploratory Data Analysis
+1) Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field trips_amount and print it along with the company_name field. Sort the results by the trips_amount field in descending order.
 
-### Step 3: Analyze the Data
-- Look at how many games were released in different years. Is the data for every period significant?
-- Look at how sales varied from platform to platform. Choose the platforms with the greatest total sales and build a distribution based on data for each year. Find platforms that used to be popular but now have zero sales. How long does it generally take for new platforms to appear and old ones to fade?
-- Determine what period you should take data for. To do so, look at your answers to the previous questions. The data should allow you to build a model for 2017.
-- Work only with the data that you've decided is relevant. Disregard the data for previous years.
-- Which platforms are leading in sales? Which ones are growing or shrinking? Select several potentially profitable platforms.
-- Build a box plot for the global sales of all games, broken down by platform. Are the differences in sales significant? What about average sales on various platforms? Describe your findings.
-- Take a look at how user and professional reviews affect sales for one popular platform (you choose). Build a scatter plot and calculate the correlation between reviews and sales. Draw conclusions.
-- Keeping your conclusions in mind, compare the sales of the same games on other platforms.
-- Take a look at the general distribution of games by genre. What can we say about the most profitable genres? Can you generalize about genres with high and low sales?
+2) Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable trips_amount. Group the results by the company_name field.
 
-### Step 4: Create User Profile for Each Region
-- For each region (NA, EU, JP), determine:
-  - The top five platforms. Describe variations in their market shares from region to region.
-  - The top five genres. Explain the difference.
-  - Do ESRB ratings affect sales in individual regions?
+3) In November 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable trips_amount. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names company. Sort the result in descending order by trips_amount.
+
+### Step 3: Test the hypothesis that the duration of rides from the the Loop to O'Hare International Airport changes on rainy Saturdays.
+1) Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
+
+2) For each hour, retrieve the weather condition records from the weather_records table. Using the CASE operator, break all hours into two groups: "Bad" if the description field contains the words "rain" or "storm," and "Good" for others. Name the resulting field weather_conditions. The final table must include two fields: date and hour (ts) and weather_conditions.
+
+3) Retrieve from the trips table all the rides that started in the Loop (neighborhood_id: 50) and ended at O'Hare (neighborhood_id: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
+
+### Step 4: Exploratory data analysis (Python)
+In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
+
+project_sql_result_01.csv. It contains the following data:
+- company_name: taxi company name
+- trips_amount: the number of rides for each taxi company on November 15-16, 2017.
+
+project_sql_result_04.csv. It contains the following data:
+- dropoff_location_name: Chicago neighborhoods where rides ended
+- average_trips: the average number of rides that ended in each neighborhood in November 2017.
+
+For these two datasets you now need to:
+- import the files
+- study the data they contain
+- make sure the data types are correct
+- identify the top 10 neighborhoods in terms of drop-offs
+- make graphs: taxi companies and number of rides, top 10 neighborhoods by number of dropoffs
+- draw conclusions based on each graph and explain the results
 
 ### Step 5: Test Hypotheses
 - Average user ratings of the Xbox One and PC platforms are the same. 
