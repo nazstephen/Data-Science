@@ -6,7 +6,7 @@ You're working as an analyst for Zuber, a new ride-sharing company that's launch
 
 Working with a database, you'll analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.
 
-## Description of the data
+## Description of Data
 A database with info on taxi rides in Chicago:
 
 **neighborhoods** table: data on city neighborhoods
@@ -58,7 +58,7 @@ Note: there isn't a direct connection between the tables **trips** and **weather
 
 3) Retrieve from the **trips** table all the rides that started in the Loop (**neighborhood_id**: 50) and ended at O'Hare (**neighborhood_id**: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
 
-### Step 4: Exploratory data analysis (Python)
+### Step 4: Exploratory Data Analysis (Python)
 In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
 
 **project_sql_result_01.csv**. It contains the following data:
@@ -77,7 +77,7 @@ For these two datasets you now need to:
 - make graphs: taxi companies and number of rides, top 10 neighborhoods by number of dropoffs
 - draw conclusions based on each graph and explain the results
 
-### Step 5: Test Hypotheses
+### Step 5: Testing Hypotheses (Python)
 **project_sql_result_07.csv** — the result of the last query. It contains data on rides from the Loop to O'Hare International Airport. 
 
 Remember, these are the table's field values:
