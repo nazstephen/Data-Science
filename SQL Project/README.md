@@ -45,29 +45,29 @@ Note: there isn't a direct connection between the tables **trips** and **weather
 <https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html>
 
 ### Step 2: Exploratory Data Analysis
-1) Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field trips_amount and print it along with the company_name field. Sort the results by the trips_amount field in descending order.
+1) Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field **trips_amount** and print it along with the **company_name** field. Sort the results by the **trips_amount** field in descending order.
 
-2) Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable trips_amount. Group the results by the company_name field.
+2) Find the number of rides for every taxi company whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable **trips_amount**. Group the results by the **company_name** field.
 
-3) In November 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable trips_amount. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names company. Sort the result in descending order by trips_amount.
+3) In November 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable **trips_amount**. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names **company**. Sort the result in descending order by **trips_amount**.
 
 ### Step 3: Test the hypothesis that the duration of rides from the the Loop to O'Hare International Airport changes on rainy Saturdays.
-1) Retrieve the identifiers of the O'Hare and Loop neighborhoods from the neighborhoods table.
+1) Retrieve the identifiers of the O'Hare and Loop neighborhoods from the **neighborhoods** table.
 
-2) For each hour, retrieve the weather condition records from the weather_records table. Using the CASE operator, break all hours into two groups: "Bad" if the description field contains the words "rain" or "storm," and "Good" for others. Name the resulting field weather_conditions. The final table must include two fields: date and hour (ts) and weather_conditions.
+2) For each hour, retrieve the weather condition records from the **weather_records** table. Using the CASE operator, break all hours into two groups: "Bad" if the **description** field contains the words "rain" or "storm," and "Good" for others. Name the resulting field **weather_conditions**. The final table must include two fields: date and hour (ts) and **weather_conditions**.
 
-3) Retrieve from the trips table all the rides that started in the Loop (neighborhood_id: 50) and ended at O'Hare (neighborhood_id: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
+3) Retrieve from the **trips** table all the rides that started in the Loop (**neighborhood_id**: 50) and ended at O'Hare (**neighborhood_id**: 63) on a Saturday. Get the weather conditions for each ride. Use the method you applied in the previous task. Also retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available.
 
 ### Step 4: Exploratory data analysis (Python)
 In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
 
-project_sql_result_01.csv. It contains the following data:
-- company_name: taxi company name
-- trips_amount: the number of rides for each taxi company on November 15-16, 2017.
+**project_sql_result_01.csv**. It contains the following data:
+- **company_name**: taxi company name
+- **trips_amount**: the number of rides for each taxi company on November 15-16, 2017.
 
-project_sql_result_04.csv. It contains the following data:
-- dropoff_location_name: Chicago neighborhoods where rides ended
-- average_trips: the average number of rides that ended in each neighborhood in November 2017.
+**project_sql_result_04.csv**. It contains the following data:
+- **dropoff_location_name**: Chicago neighborhoods where rides ended
+- **average_trips**: the average number of rides that ended in each neighborhood in November 2017.
 
 For these two datasets you now need to:
 - import the files
@@ -78,12 +78,12 @@ For these two datasets you now need to:
 - draw conclusions based on each graph and explain the results
 
 ### Step 5: Test Hypotheses
-project_sql_result_07.csv — the result of the last query. It contains data on rides from the Loop to O'Hare International Airport. 
+**project_sql_result_07.csv** — the result of the last query. It contains data on rides from the Loop to O'Hare International Airport. 
 
 Remember, these are the table's field values:
-- start_ts — pickup date and time
-- weather_conditions — weather conditions at the moment the ride started
-- duration_seconds — ride duration in seconds
+- **start_ts** — pickup date and time
+- **weather_conditions** — weather conditions at the moment the ride started
+- **duration_seconds** — ride duration in seconds
 
 Test the hypothesis:
 "The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays." 
