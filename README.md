@@ -1,5 +1,5 @@
 # Projects
-Compilation of all projects I've completed throughout [Data Science Professional Training Program on TripleTen](https://tripleten.com/id-idn/) 
+Compilation of all projects I've completed throughout [TripleTen's Data Science Bootcamp](https://tripleten.com/id-idn/) 
 
 | Project Name              | Description                 | Library                      |
 | :-------------------- | :--------------------- |:---------------------------|
