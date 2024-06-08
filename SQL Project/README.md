@@ -29,7 +29,7 @@ Working with a database, you'll analyze data from competitors and test a hypothe
 ### Step 4: Exploratory data analysis (Python)
 In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
 
-<u>project_sql_result_01.csv</u>. It contains the following data:
+project_sql_result_01.csv. It contains the following data:
 - company_name: taxi company name
 - trips_amount: the number of rides for each taxi company on November 15-16, 2017.
 
@@ -46,12 +46,21 @@ For these two datasets you now need to:
 - draw conclusions based on each graph and explain the results
 
 ### Step 5: Test Hypotheses
-- Average user ratings of the Xbox One and PC platforms are the same. 
-- Average user ratings for the Action and Sports genres are different.
-- Set the alpha threshold value yourself.
-- Explain:
-  - How you formulated the null and alternative hypotheses 
-  - What significance level you chose to test the hypotheses, and why
+project_sql_result_07.csv — the result of the last query. It contains data on rides from the Loop to O'Hare International Airport. 
+
+Remember, these are the table's field values:
+- start_ts — pickup date and time
+- weather_conditions — weather conditions at the moment the ride started
+- duration_seconds — ride duration in seconds
+
+Test the hypothesis:
+"The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays." 
+
+Set the significance level (alpha) value on your own.
+
+Explain:
+- how you formed the null and alternative hypotheses
+- what criterion you used to test the hypotheses and why
 
 ### Step 6: Write General Conclusion
 
