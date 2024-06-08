@@ -1,5 +1,7 @@
-#Write a code to parse the data on weather in Chicago in November 2017 from the website:
-[https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html)
+"""
+Write a code to parse the data on weather in Chicago in November 2017 from the website:
+https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html
+"""
 
 # Import necessary libraries
 import requests
