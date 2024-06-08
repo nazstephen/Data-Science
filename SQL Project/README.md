@@ -62,8 +62,6 @@ Explain:
 - how you formed the null and alternative hypotheses
 - what criterion you used to test the hypotheses and why
 
-### Step 6: Write General Conclusion
-
 ## Description of the data
 A database with info on taxi rides in Chicago:
 
