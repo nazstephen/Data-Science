@@ -29,7 +29,7 @@ Working with a database, you'll analyze data from competitors and test a hypothe
 ### Step 4: Exploratory data analysis (Python)
 In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
 
-project_sql_result_01.csv. It contains the following data:
+<u>project_sql_result_01.csv</u>. It contains the following data:
 - company_name: taxi company name
 - trips_amount: the number of rides for each taxi company on November 15-16, 2017.
 
