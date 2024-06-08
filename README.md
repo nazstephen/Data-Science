@@ -1,7 +1,7 @@
 # Projects
 Compilation of all projects I've completed throughout [TripleTen's Data Science Bootcamp](https://tripleten.com/data-science/) 
 
-| Project Name              | Description                 | Libraries                      |
+| Name                   | Description            | Libraries                  |
 | :--------------------- | :--------------------- |:---------------------------|
 | [Basic Python Project](https://github.com/nazstephen/Data-Science/tree/main/Basic%20Python%20Project) |In this project, you will work with data from the entertainment industry. You will study a dataset with records on movies and shows. The research will focus on the "Golden Age" of television, which began in 1999 with the release of The Sopranos and is still ongoing. The aim of this project is to investigate how the number of votes a title receives impacts its ratings. | _pandas_ |
 | [EDA Project](https://github.com/nazstephen/Data-Science/tree/main/EDA%20Project) | Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. Your mission is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers. | _pandas and matplotlib_ |
