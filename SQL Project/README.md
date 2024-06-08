@@ -9,9 +9,9 @@ Working with a database, you'll analyze data from competitors and test a hypothe
 ## Description of the data
 A database with info on taxi rides in Chicago:
 
-neighborhoods table: data on city neighborhoods
-- name: name of the neighborhood
-- neighborhood_id: neighborhood code
+*neighborhoods* table: data on city neighborhoods
+- *name*: name of the neighborhood
+- *neighborhood_id*: neighborhood code
 
 cabs table: data on taxis
 - cab_id: vehicle code
@@ -40,7 +40,7 @@ weather_records table: data on weather
 ## Instructions on Completing the Project
 
 ### Step 1: Write a code to parse the data on weather in Chicago in November 2017 from the website:
-https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html
+<https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html>
 
 ### Step 2: Exploratory Data Analysis
 1) Find the number of taxi rides for each taxi company for November 15-16, 2017. Name the resulting field trips_amount and print it along with the company_name field. Sort the results by the trips_amount field in descending order.
