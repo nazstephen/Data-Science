@@ -9,9 +9,9 @@ Working with a database, you'll analyze data from competitors and test a hypothe
 ## Description of the data
 A database with info on taxi rides in Chicago:
 
-*neighborhoods* table: data on city neighborhoods
-- *name*: name of the neighborhood
-- *neighborhood_id*: neighborhood code
+**neighborhoods** table: data on city neighborhoods
+- **name** name of the neighborhood
+- **neighborhood_id**: neighborhood code
 
 cabs table: data on taxis
 - cab_id: vehicle code
