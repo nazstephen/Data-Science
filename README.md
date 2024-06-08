@@ -1,4 +1,4 @@
-# tripleten-projects
+# Projects
 Compilation of all projects I've completed throughout [Data Science Professional Training Program on TripleTen](https://tripleten.com/id-idn/) 
 
 | Project Name              | Description                 | Library                      |
