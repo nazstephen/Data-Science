@@ -10,15 +10,15 @@ The data is stored in the file /datasets/movies_and_shows.csv.
 
 ## Description of columns:
 
-- 'name' - first and last name of actor (director)
-- 'character' - character played (for actors)
-- 'role ' — the person’s contribution to the title (it can be in the capacity either of actor or director)
-- 'title ' — title of movie (show)
-- 'type ' — show or movie
-- 'genres' — list of genres under which the movie (show) falls
-- 'release_year' — year when the movie (show) was released
-- 'imdb_score' — score on IMDb
-- 'imdb_votes' — votes on IMDb
+- **name** - first and last name of actor (director)
+- **character** - character played (for actors)
+- **role** — the person’s contribution to the title (it can be in the capacity either of actor or director)
+- **title** — title of movie (show)
+- **type** — show or movie
+- **genres** — list of genres under which the movie (show) falls
+- **release_year** — year when the movie (show) was released
+- **imdb_score** — score on IMDb
+- **imdb_votes** — votes on IMDb
 
 ## Stages 
 Data on movies and shows is stored in the `/datasets/movies_and_shows.csv` file. There is no information about the quality of the data, so you will need to explore it before doing the analysis.
