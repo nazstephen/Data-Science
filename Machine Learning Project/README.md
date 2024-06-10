@@ -13,7 +13,7 @@ Develop a model with the highest possible accuracy. In this project, the thresho
 2) Split the source data into a training set, a validation set, and a test set.
 3) Investigate the quality of different models by changing hyperparameters. Briefly describe the findings of the study.
 4) Check the quality of the model using the test set.
-5) Additional task: sanity check the model. This data is more complex than what you’re used to working with, so it's not an easy task. We'll take a closer look at it later.
+5) Sanity check the model.
 
 ## Data Description
 
