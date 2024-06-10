@@ -13,7 +13,7 @@ The dataset contains the abbreviation ESRB. The Entertainment Software Rating Bo
 ## Instructions on Completing the Project
 
 ### Step 1: Open the Data File and Study the General Information
-- File path: **/datasets/games.csv**
+- File path: `/datasets/games.csv`
 
 ### Step 2: Prepare the Data
 - Replace the column names (make them lowercase).
