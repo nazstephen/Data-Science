@@ -13,12 +13,12 @@ A database with info on taxi rides in Chicago:
 - **name**: name of the neighborhood
 - **neighborhood_id**: neighborhood code
 
-**cabs** table: data on taxis
+`cabs` table: data on taxis
 - **cab_id**: vehicle code
 - **vehicle_id**: the vehicle's technical ID
 - **company_name**: the company that owns the vehicle
 
-**trips** table: data on rides
+`trips` table: data on rides
 - **trip_id**: ride code
 - **cab_id**: code of the vehicle operating the ride
 - **start_ts**: date and time of the beginning of the ride (time rounded to the hour)
@@ -28,7 +28,7 @@ A database with info on taxi rides in Chicago:
 - **pickup_location_id**: pickup neighborhood code
 - **dropoff_location_id**: dropoff neighborhood code
 
-**weather_records** table: data on weather
+`weather_records` table: data on weather
 - **record_id**: weather record code
 - **ts**: record date and time (time rounded to the hour)
 - **temperature**: temperature when the record was taken
@@ -65,11 +65,11 @@ Note: there isn't a direct connection between the tables **trips** and **weather
 ### Step 4: Exploratory Data Analysis (Python)
 In addition to the data you retrieved in the previous tasks, you've been given a second file. You now have these two CSVs: 
 
-**project_sql_result_01.csv**. It contains the following data:
+`project_sql_result_01.csv`: It contains the following data:
 - **company_name**: taxi company name
 - **trips_amount**: the number of rides for each taxi company on November 15-16, 2017.
 
-**project_sql_result_04.csv**. It contains the following data:
+`project_sql_result_04.csv`: It contains the following data:
 - **dropoff_location_name**: Chicago neighborhoods where rides ended
 - **average_trips**: the average number of rides that ended in each neighborhood in November 2017.
 
@@ -82,7 +82,7 @@ For these two datasets you now need to:
 - draw conclusions based on each graph and explain the results
 
 ### Step 5: Testing Hypotheses (Python)
-**project_sql_result_07.csv** — the result of the last query. It contains data on rides from the Loop to O'Hare International Airport. 
+`project_sql_result_07.csv`: The result of the last query. It contains data on rides from the Loop to O'Hare International Airport. 
 
 Remember, these are the table's field values:
 - **start_ts** — pickup date and time
