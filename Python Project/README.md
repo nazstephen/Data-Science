@@ -6,7 +6,7 @@ The aim of this project is to investigate how the number of votes a title receiv
 This project is similar to the tasks you will be getting in your job as a data professional. Many business decisions are initially born as assumptions, your contribution as an expert in the data domain is to answer the question “Did the assumption formulated before the study appear to be true?”
 
 ## Description of the data
-The data is stored in the file /datasets/movies_and_shows.csv. 
+The data is stored in the file: `/datasets/movies_and_shows.csv`
 
 ## Description of columns:
 
