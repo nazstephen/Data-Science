@@ -9,7 +9,7 @@ Working with a database, you'll analyze data from competitors and test a hypothe
 ## Description of Data
 A database with info on taxi rides in Chicago:
 
-**neighborhoods** table: data on city neighborhoods
+`neighborhoods` table: data on city neighborhoods
 - **name**: name of the neighborhood
 - **neighborhood_id**: neighborhood code
 
