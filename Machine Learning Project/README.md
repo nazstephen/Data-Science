@@ -1,4 +1,4 @@
-# SQL Project
+# Machine Learning Project
 
 ## Project Description
 
