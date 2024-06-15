@@ -22,7 +22,6 @@ Additionally, measure the AUC-ROC metric and compare it with the F1.
 The data can be found in `/datasets/Churn.csv` file.  
 
 ### Features
-
 - **RowNumber** — data string index
 - **CustomerId** — unique customer identifier
 - **Surname** - surname
