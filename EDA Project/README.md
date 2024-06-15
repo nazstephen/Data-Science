@@ -1,4 +1,4 @@
-# EDA: Project
+# EDA Project
 
 For this project, you’ll work with data from Instacart.
 
