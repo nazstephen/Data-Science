@@ -10,8 +10,9 @@ Compilation of all projects I've completed throughout [TripleTen's Data Science 
 | [Integrated Project 1](https://github.com/nazstephen/Data-Science/tree/main/Integrated%20Project%201) | You work for the online store Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources. You need to identify patterns that determine whether a game succeeds or not. This will allow you to spot potential big winners and plan advertising campaigns. | _pandas, numpy, matplotlib and scipy_ |
 | [SQL Project](https://github.com/nazstephen/Data-Science/tree/main/SQL%20Project) | You're working as an analyst for Zuber, a new ride-sharing company that's launching in Chicago. Your task is to find patterns in the available information. You want to understand passenger preferences and the impact of external factors on rides. | _requests, BeautifulSoup, pandas, matplotlib and scipy_ | 
 | [Machine Learning Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20Project) | Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. Develop a model with the highest possible accuracy. | _pandas and sklearn_ |
+| [Supervised Learning Project]() | Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. Predict whether a customer will leave the bank soon by building a machine learning model with the maximum possible F1 score. |  |
+
 <!--
-| [Supervised Learning Project]() |  |  |
 | [Machine Learning in Business Project]() |  |  |  
 | [Integrated Project 2]() |  |  |  
 | [Linear Algebra Project]() |  |  |
