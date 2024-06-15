@@ -36,4 +36,4 @@ The data can be found in `/datasets/Churn.csv` file.
 - **EstimatedSalary** — estimated salary
 
 ### Target
-**Exited** — сustomer has left
+- **Exited** — сustomer has left
