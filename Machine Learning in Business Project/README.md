@@ -64,7 +64,7 @@ Geological exploration data for the three regions are stored in files:
 
 ## Conditions:
 
-- Only linear regression is suitable for model training (the rest are not sufficiently predictable).
+- Only linear regression is suitable for model training.
 - When exploring the region, a study of 500 points is carried with picking the best 200 points for the profit calculation.
 - The budget for development of 200 oil wells is 100 USD million.
 - One barrel of raw materials brings 4.5 USD of revenue The revenue from one unit of product is 4,500 dollars (volume of reserves is in thousand barrels).
