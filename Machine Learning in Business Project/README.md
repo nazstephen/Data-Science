@@ -62,7 +62,7 @@ Geological exploration data for the three regions are stored in files:
 - **f0**, **f1**, **f2** — three features of points
 - **product** — volume of reserves in the oil well (thousand barrels)
 
-## Conditions:
+### Conditions:
 
 - Only linear regression is suitable for model training.
 - When exploring the region, a study of 500 points is carried with picking the best 200 points for the profit calculation.
