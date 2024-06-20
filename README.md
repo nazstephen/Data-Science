@@ -11,9 +11,9 @@ Compilation of all projects I've completed throughout [TripleTen's Data Science 
 | [SQL Project](https://github.com/nazstephen/Data-Science/tree/main/SQL%20Project) | You're working as an analyst for Zuber, a new ride-sharing company that's launching in Chicago. Your task is to find patterns in the available information. You want to understand passenger preferences and the impact of external factors on rides. | _BeautifulSoup, matplotlib, pandas, requests and scipy_ | 
 | [Machine Learning Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20Project) | Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. Develop a model with the highest possible accuracy. | _pandas and sklearn_ |
 | [Supervised Learning Project](https://github.com/nazstephen/Data-Science/tree/main/Supervised%20Learning%20Project) | Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. Predict whether a customer will leave the bank soon by building a machine learning model with the maximum possible F1 score. | _matplotlib, numpy, pandas and sklearn_ |
+| [Machine Learning in Business Project]() | You work for the OilyGiant mining company. Your task is to find the best place for a new well. You have data on oil samples from three regions. Parameters of each oil well in the region are already known. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique. |  |  
 
 <!--
-| [Machine Learning in Business Project]() |  |  |  
 | [Integrated Project 2]() |  |  |  
 | [Linear Algebra Project]() |  |  |
 | [Numerical Methods Project]() |  |  |
