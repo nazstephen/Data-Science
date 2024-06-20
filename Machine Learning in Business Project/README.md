@@ -1,4 +1,4 @@
-### Machine Learning in Business Project
+# Machine Learning in Business Project
 
 ## Project Description
 
