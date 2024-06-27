@@ -69,11 +69,16 @@ Possible values for `[parameter_type]`:
 - state — parameters characterizing the current state of the stage
 - calculation — calculation characteristics
 
+![Alt Text](feature_naming.png)
+
 ## Recovery Calculation
 
 You need to simulate the process of recovering gold from gold ore.
 
-Use the 'Recovery' formula to simulate the recovery process where:
+Use the 'Recovery' formula to simulate the recovery process:
+
+![Alt Text](recovery_formula.png)
+
 - C — share of gold in the concentrate right after flotation (for finding the rougher concentrate recovery)/after purification (for finding the final concentrate recovery)
 - F — share of gold in the feed before flotation (for finding the rougher concentrate recovery)/in the concentrate right after flotation (for finding the final concentrate recovery)
 - T — share of gold in the rougher tails right after flotation (for finding the rougher concentrate recovery)/after purification (for finding the final concentrate recovery)
@@ -82,14 +87,20 @@ To predict the coefficient, you need to find the share of gold in the concentrat
 
 ## Evaluation Metric
 
-To solve the problem, we will need a new metrics. They are called sMAPE (symmetric Mean Absolute Percentage Error) and Final sMAPE. 
+To solve the problem, we will need new metrics. 
+
+sMAPE (symmetric Mean Absolute Percentage Error):
+
+![Alt Text](smape.png)
 
 We need to predict two values:
 
 1. rougher concentrate recovery `rougher.output.recover`
 2. final concentrate recovery `final.output.recovery`
 
-Final sMAPE is clculated using these two values.
+Final sMAPE is clculated using these two values:
+
+![Alt Text](final_smape.png)
 
 ## Project Description
 
