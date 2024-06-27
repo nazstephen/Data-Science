@@ -11,6 +11,9 @@ The model will help to optimize the production and eliminate unprofitable parame
 ## Technological Process
 
 Mined ore undergoes primary processing to get the ore mixture or rougher feed, which is the raw material for flotation (also known as the rougher process). After flotation, the material is sent to two-stage purification.
+
+![Alt Text](process_stages.png)
+
 1. **Flotation**
 
     Gold ore mixture is fed into the float banks to obtain rougher Au concentrate and rougher tails (product residues with a low concentration of valuable metals). 
