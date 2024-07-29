@@ -1,4 +1,4 @@
-# Linear Algebra Project <a id='intro'></a>
+# Linear Algebra Project
 
 ## Statement
 
