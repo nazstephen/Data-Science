@@ -14,9 +14,8 @@ Compilation of all projects I've completed throughout [TripleTen's Data Science 
 | [Machine Learning in Business Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20in%20Business%20Project) | You work for the OilyGiant mining company. Your task is to find the best place for a new well. You have data on oil samples from three regions. Parameters of each oil well in the region are already known. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique. | _numpy, pandas, scipy and sklearn_ |  
 | [Integrated Project 2](https://github.com/nazstephen/Data-Science/tree/main/Integrated%20Project%202) | Prepare a prototype of a machine learning model for Zyfra. The company develops efficiency solutions for heavy industry. The model should predict the amount of gold recovered from gold ore. You have the data on extraction and purification. The model will help to optimize the production and eliminate unprofitable parameters. | _matplotlib, numpy, pandas, seaborn and sklearn_ |  
 | [Linear Algebra Project](https://github.com/nazstephen/Data-Science/tree/main/Linear%20Algebra%20Project) | The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning and you are asked to evaluate that possibility. Protect clients' personal data by developing a data transformation algorithm that would make it hard to recover personal information if the data fell into the wrong hands. | _numpy, pandas, seaborn and sklearn_ |
-
-<!--
 | [Numerical Methods Project]() |  |  |
+<!--
 | [Time Series Project]() |  |  |
 | [Machine Learning for Texts Project]() |  |  |
 | [Computer Vision Project]() |  |  |
