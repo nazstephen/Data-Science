@@ -16,9 +16,9 @@ Compilation of all projects I've completed throughout [TripleTen's Data Science 
 | [Linear Algebra Project](https://github.com/nazstephen/Data-Science/tree/main/Linear%20Algebra%20Project) | The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning and you are asked to evaluate that possibility. Protect clients' personal data by developing a data transformation algorithm that would make it hard to recover personal information if the data fell into the wrong hands. | _numpy, pandas, seaborn and sklearn_ |
 | [Numerical Methods Project](https://github.com/nazstephen/Data-Science/blob/main/Numerical%20Methods%20Project/proj12.ipynb) | Develop a predictive model for Rusty Bargain that accurately estimates car values based on historical data while optimizing for prediction accuracy, speed, and training time | _catboost, lightgbm, matplotlib, numpy, pandas, seaborn, sklearn, time and xgboost_ |
 | [Time Series Project](https://github.com/nazstephen/Data-Science/tree/main/Time%20Series%20Project) | Sweet Lift Taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak hours, we need to predict the amount of taxi orders for the next hour. Build a model for such a prediction. | _lightgbm, matplotlib, numpy, pandas, pmdarima, sklearn and statsmodels_ |
+| [Machine Learning for Texts Project]() | The Film Junky Union, a new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. You'll be using a dataset of IMBD movie reviews with polarity labelling to build a model for classifying positive and negative reviews. | _lightgbm, matplotlib, nltk, numpy, pandas, seaborn, sklearn, spacy and tqdm_  |
 
 <!--
-| [Machine Learning for Texts Project]() |  |  |
 | [Computer Vision Project]() |  |  |
 | [Final Project]() |  |  | 
 -->
