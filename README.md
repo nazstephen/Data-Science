@@ -17,8 +17,5 @@ Compilation of all projects I've completed throughout [TripleTen's Data Science 
 | [Numerical Methods Project](https://github.com/nazstephen/Data-Science/blob/main/Numerical%20Methods%20Project/proj12.ipynb) | Develop a predictive model for Rusty Bargain that accurately estimates car values based on historical data while optimizing for prediction accuracy, speed, and training time | _catboost, lightgbm, matplotlib, numpy, pandas, seaborn, sklearn, time and xgboost_ |
 | [Time Series Project](https://github.com/nazstephen/Data-Science/tree/main/Time%20Series%20Project) | Sweet Lift Taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak hours, we need to predict the amount of taxi orders for the next hour. Build a model for such a prediction. | _lightgbm, matplotlib, numpy, pandas, pmdarima, sklearn and statsmodels_ |
 | [Machine Learning for Texts Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20for%20Texts%20Project) | The Film Junky Union, a new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. You'll be using a dataset of IMBD movie reviews with polarity labelling to build a model for classifying positive and negative reviews. | _lightgbm, matplotlib, nltk, numpy, pandas, seaborn, sklearn, spacy and tqdm_  |
-
-<!--
-| [Computer Vision Project]() |  |  |
+| [Computer Vision Project]() | The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage. You are asked to conduct that evaluation. Utilized Computer vision methods to determine age of a person from a photo. | _matplotlib and pandas_ |
 | [Final Project]() |  |  | 
--->
