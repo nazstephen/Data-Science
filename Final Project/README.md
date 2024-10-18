@@ -52,14 +52,3 @@ The contract information is valid as of February 1, 2020.
 **G) Model Analysis & Test:**
 - Analyze the performance of each model using AUC-ROC and accuracy metrics.
 - Choose the best model and retrain it on the entire training set, then evaluate it on the test set.
-
-## Clarifying Questions
-1) What is the most appropriate way to address missing values—should they be filled with a specific value (e.g., "No," -1) or should rows be removed?
-
-2) Are there specific features that require in-depth exploratory analysis? Which features should we prioritize in our analysis?
-
-3) What strategies should we consider for addressing potential class imbalance between churned and non-churned customers (e.g., oversampling, undersampling, or using different evaluation metrics)?
-
-4) Do you have any recommendations on specific models that have been successful in similar churn prediction tasks?
-
-5) Are there any specific feature engineering techniques you recommend to enhance the predictive power of the model?
