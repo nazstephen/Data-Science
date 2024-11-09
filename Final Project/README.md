@@ -1,5 +1,8 @@
 # Final Project
 
+## Project Showcase
+https://www.loom.com/share/30012b8a247b4689b96696d5a7bf7932?sid=0a827b6b-9a09-49f1-a0bc-36943167b990
+
 ## Project Description
 The telecom operator Interconnect would like to be able to forecast their churn of clients. If it's discovered that a user is planning to leave, they will be offered promotional codes and special plan options. Interconnect's marketing team has collected some of their clientele's personal data, including information about their plans and contracts.
 
