@@ -1,21 +1,34 @@
-# Projects
-Compilation of all projects I've completed throughout [TripleTen's Data Science Bootcamp](https://tripleten.com/data-science/) 
+# NBA-Archetypes
 
-| Name                   | Description            | Libraries                  |
-| :--------------------- | :--------------------- |:---------------------------|
-| [Python Project](https://github.com/nazstephen/Data-Science/tree/main/Python%20Project) | In this project, you will work with data from the entertainment industry. You will study a dataset with records on movies and shows. The research will focus on the "Golden Age" of television, which began in 1999 with the release of The Sopranos and is still ongoing. The aim of this project is to investigate how the number of votes a title receives impacts its ratings. | _pandas_ |
-| [EDA Project](https://github.com/nazstephen/Data-Science/tree/main/EDA%20Project) | Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. Your mission is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers. | _matplotlib and pandas_ |
-| [SDA Project](https://github.com/nazstephen/Data-Science/tree/main/SDA%20Project) | You work as an analyst for the telecom operator Megaline. The company offers its clients two prepaid plans, Surf and Ultimate. The commercial department wants to know which of the plans brings in more revenue in order to adjust the advertising budget. You are going to carry out a preliminary analysis of the plans based on a relatively small client selection. | _matplotlib, numpy, pandas and scipy_ |
-| [Software Development Tools Project](https://github.com/nazstephen/Software-Development-Tools-Project) | This project is an interactive web application built with Streamlit, designed for analyzing a car advertisement dataset. It provides users with a platform to explore various attributes of cars, including condition, model year, price, and mileage. Through features like histograms and scatter plots, users can gain insights into relationships between these attributes, such as understanding the distribution of car conditions across model years and the impact of mileage on car prices. | _pandas, plotly and streamlit_ |
-| [Integrated Project 1](https://github.com/nazstephen/Data-Science/tree/main/Integrated%20Project%201) | You work for the online store Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources. You need to identify patterns that determine whether a game succeeds or not. This will allow you to spot potential big winners and plan advertising campaigns. | _matplotlib, numpy, pandas and scipy_ |
-| [SQL Project](https://github.com/nazstephen/Data-Science/tree/main/SQL%20Project) | You're working as an analyst for Zuber, a new ride-sharing company that's launching in Chicago. Your task is to find patterns in the available information. You want to understand passenger preferences and the impact of external factors on rides. | _BeautifulSoup, matplotlib, pandas, requests and scipy_ | 
-| [Machine Learning Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20Project) | Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. Develop a model with the highest possible accuracy. | _pandas and sklearn_ |
-| [Supervised Learning Project](https://github.com/nazstephen/Data-Science/tree/main/Supervised%20Learning%20Project) | Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. Predict whether a customer will leave the bank soon by building a machine learning model with the maximum possible F1 score. | _matplotlib, numpy, pandas and sklearn_ |
-| [Machine Learning in Business Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20in%20Business%20Project) | You work for the OilyGiant mining company. Your task is to find the best place for a new well. You have data on oil samples from three regions. Parameters of each oil well in the region are already known. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique. | _numpy, pandas, scipy and sklearn_ |  
-| [Integrated Project 2](https://github.com/nazstephen/Data-Science/tree/main/Integrated%20Project%202) | Prepare a prototype of a machine learning model for Zyfra. The company develops efficiency solutions for heavy industry. The model should predict the amount of gold recovered from gold ore. You have the data on extraction and purification. The model will help to optimize the production and eliminate unprofitable parameters. | _matplotlib, numpy, pandas, seaborn and sklearn_ |  
-| [Linear Algebra Project](https://github.com/nazstephen/Data-Science/tree/main/Linear%20Algebra%20Project) | The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning and you are asked to evaluate that possibility. Protect clients' personal data by developing a data transformation algorithm that would make it hard to recover personal information if the data fell into the wrong hands. | _numpy, pandas, seaborn and sklearn_ |
-| [Numerical Methods Project](https://github.com/nazstephen/Data-Science/tree/main/Numerical%20Methods%20Project) | Develop a predictive model for Rusty Bargain that accurately estimates car values based on historical data while optimizing for prediction accuracy, speed, and training time. | _catboost, lightgbm, matplotlib, numpy, pandas, seaborn, sklearn, time and xgboost_ |
-| [Time Series Project](https://github.com/nazstephen/Data-Science/tree/main/Time%20Series%20Project) | Sweet Lift Taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak hours, we need to predict the amount of taxi orders for the next hour. Build a model for such a prediction. | _lightgbm, matplotlib, numpy, pandas, pmdarima, sklearn and statsmodels_ |
-| [Machine Learning for Texts Project](https://github.com/nazstephen/Data-Science/tree/main/Machine%20Learning%20for%20Texts%20Project) | The Film Junky Union, a new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. You'll be using a dataset of IMBD movie reviews with polarity labelling to build a model for classifying positive and negative reviews. | _lightgbm, matplotlib, nltk, numpy, pandas, seaborn, sklearn, spacy and tqdm_  |
-| [Computer Vision Project](https://github.com/nazstephen/Data-Science/tree/main/Computer%20Vision%20Project) | The supermarket chain Good Seed would like to explore whether Data Science can help them adhere to alcohol laws by making sure they do not sell alcohol to people underage. You are asked to conduct that evaluation. Utilized Computer vision methods to determine age of a person from a photo. | _matplotlib, pandas and tensorflow_ |
-| [Final Project](https://github.com/nazstephen/Data-Science/tree/main/Final%20Project) | Develop a machine learning framework to predict client churn for Interconnect, a telecom operator. Interconnect's goal is to implement targeted marketing strategies that reduce churn rates and enhance customer loyalty. Employ strategies such as data preprocessing, exploratory data analysis, and the application of various classification models to determine the most effective approach for churn prediction. | _catboost, functools, lightgbm, matplotlib, numpy, pandas, seaborn, sklearn and xgboost_ | 
+## Task idea
+
+The 2024-2025 NBA season is just starting and you have just landed a job as a data scientist
+for your favorite NBA team. With various changes in play style, officiating, and general strategy
+things look very different for professional basketball than when the NBA first started. In
+basketball, there are 5 traditional positions with their traditional roles listed below:
+
+- Point Guard (PG): Known for having the ball a lot, being the shortest players, getting
+most of the assists, scoring decent points, mostly scoring by shooting
+- Shooting Guards (SG): Known for being mid sized players scoring a lot of points,
+shooting the most 3-point shots, getting a decent balance of assists and rebounds
+- Small Forward (SF): Known for being mid sized players with a balance of points, assists,
+rebounds, and generally excelling on defense. Mostly shooting from mid range
+- Power Forward (PF): Known for being larger players scoring some points with a lot of
+rebounds, and excelling on defense. Mostly shooting from close range.
+- Center ( C) : Known for being the largest players on the court and for being the best
+defenders, getting lots of blocks and rebounds. Hardly ever taking 3 point shots, or really
+for scoring anywhere but from very close range
+
+However, size, skillsets, and strategy have changed the game, so even though there are 5
+players on the court at all time, these traditional roles don’t always fit. In this project, we hope to
+determine different player “archetypes” which you can think of as types of roles that are not
+concretely defined. These are very abstract roles, so they are up to you to define from the data.
+There is no set number of archetypes you must define but they should be decent
+approximations of the kinds of players who are in the league today. You will use 2023-2024
+regular season data as this is the last full season.
+
+Resources:
+
+- Dataset: [2023-2024 NBA Player Stats - Regular.csv](https://prod-files-secure.s3.us-west-2.amazonaws.com/662b586e-86b7-4f44-9740-1dc06c7a67a4/c2ca36c6-3d92-4c42-82c6-cfe89a18637c/2023-2024_NBA_Player_Stats_-_Regular.csv)
+
+- This dataset on Kaggle: https://www.kaggle.com/datasets/vivovinco/2023-2024-nba-player-stats?resource=download&select=2023-2024+NBA+Player+Stats+-+Regular.csv
